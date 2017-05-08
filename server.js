@@ -37,10 +37,9 @@ app.post('/sendMail', function(req, res, next) {
 	var transporter = nodemailer.createTransport({
 		service: 'gmail',
 		auth: {
-			/*user: 'YourGmailAddress',
-			pass: 'yourPassword'*/
-			user: 'vissarut.ly@gmail.com',
-			pass: 'Link*starT!2301'
+            // Il faut penser à activer l'accès pour les applications moins sécurisées depuis Google
+			user: 'address@gmail.com',
+			pass: 'Password'
 		}
 	});
 	

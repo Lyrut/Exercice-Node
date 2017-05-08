@@ -25,6 +25,7 @@ export default class Contact extends Component {
       <div>
         <Header/>
         <div id="grid_page" class="grid-page">
+          <div id="alert"></div>
           <h1 class="title">Contact</h1>
           <div class="form">
             <input type="text" id="sendTo" placeholder="To"/>

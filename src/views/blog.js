@@ -22,7 +22,7 @@ req.send(null);
 
 function getArticles(props) {
   const listItems = props.map((article) =>
-    <li>
+    <li class="articles">
       <h1>{article.title}</h1><p>{article.content}</p>
     </li>
   );
